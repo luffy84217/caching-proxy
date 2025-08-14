@@ -1,0 +1,34 @@
+{
+  "name": "caching-proxy",
+  "version": "1.0.0",
+  "description": "A CLI tool for starting a caching proxy server",
+  "main": "index.js",
+  "bin": {
+    "caching-proxy": "./bin/main.js"
+  },
+  "scripts": {
+    "start": "node bin/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "keywords": [
+    "proxy",
+    "cache",
+    "cli",
+    "http",
+    "server"
+  ],
+  "author": {
+    "name": "Asriel Yu",
+    "email": "luffy8421@gmail.com"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ]
+}
